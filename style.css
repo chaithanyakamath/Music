@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Slabo+27px&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Slabo+27px&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Slabo+27px&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #ccd1b3
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+   font-family:'Martel Sans', 'Martel Sans';
+
+
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 85px;
+    background-color: #3d4127;
+    color: azure;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.brand img{
+    width: 55px;
+    padding: 7px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.55rem;
+}
+nav ul li{
+    padding-left: 15px;
+    font-size: 1.05rem;
+    padding-right: 15px;
+
+}
+
+.container{
+    min-height: 66.5vh;
+    font-family:'Josefin Sans', 'Martel Sans';
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #3d4127;
+    color: aliceblue;
+    border-radius: 12px;
+    background-image: url('background\ \(2\).jpg');
+    background-size: cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: #636b2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    /* bottom: 0; */
+}
+
+#myProgressBar{
+    width:60vw;
+    cursor: pointer;
+}
+
+.icons{
+    height: 10px;
+    margin-top:10px ;
+    width: 100px;
+}
+
+
+
+.icons i{
+    cursor: pointer;
+}
+
+.songList{
+    width: 590px;
+    padding-top: 35px;
+    padding-left: 30px;
+}
+
+.songItem{
+    height: 65px;
+    display: flex;
+    background-color: white;
+    width: 90%;
+    border-radius: 18px;
+    color: black;
+    margin: 15px 0;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 22px;
+}
+
+.songItem img{
+    width: 80px;
+    margin: 0 23px;
+    border-radius: 15px;
+}
+
+.timeStamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 0;
+    width: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 04s is ease-in;
+    font-family:'Josefin Sans', 'Martel Sans';
+}
+
+#gif{
+    height: 10px;
+    width: 20px;
+}
+
+.songItemplay
+{
+    padding-right: 17px;
+    height: 25px;
+    width: 1.5rem;
+}
+
+#dispSong{
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 10px;
+}
