@@ -145,3 +145,21 @@ nav ul li{
     padding-right: 10px;
 }
 
+@media(max-width: 782px)
+{
+    .songItem{
+        font-size: 14px;
+        width: 90%;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .songList{
+        width: 590px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .container{
+        width: 90%;
+    }
+}

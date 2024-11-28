@@ -6,6 +6,7 @@ let myProgreassBar = document.getElementById('myProgressBar');
 let masterSongName = document.getElementById('masterSongName');
 let gif =  document.getElementById('gif');
 let songItem = Array.from(document.getElementsByClassName('songItem'));
+let songItemplay = Array.from(document.getElementsByClassName('songItemplay'));
 
 let songs = [
     {songName:"Balam Pichkari", filepath: "songs/1.mp3", coverPath: "covers/1.jpg" },
@@ -37,6 +38,12 @@ masterPlay.addEventListener('click', ()=>{
         gif.style.opacity  = 0;
         }
     })
+
+// Array.from(document.getElementsByClassName('songItemplay')).forEach((element)=>{
+//     element.addEventListener('click', (e)=>{
+//         console.log(e);
+//     })
+// })
 
 // event listener
 audioElement.addEventListener("timeupdate", ()=>{
