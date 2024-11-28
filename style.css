@@ -13,8 +13,6 @@ body{
 
 nav{
    font-family:'Martel Sans', 'Martel Sans';
-
-
 }
 
 nav ul{
@@ -31,7 +29,6 @@ nav ul{
 .brand img{
     width: 55px;
     padding: 7px;
-    
 }
 
 .brand{
@@ -84,8 +81,6 @@ nav ul li{
     margin-top:10px ;
     width: 100px;
 }
-
-
 
 .icons i{
     cursor: pointer;
@@ -144,8 +139,9 @@ nav ul li{
     width: 1.5rem;
 }
 
-#dispSong{
+#masterSongName{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 28px;
     padding-right: 10px;
 }
+
