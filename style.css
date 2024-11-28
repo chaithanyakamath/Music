@@ -128,8 +128,8 @@ nav ul li{
 }
 
 #gif{
-    height: 10px;
-    width: 20px;
+    height: 15px;
+    width: 30px;
 }
 
 .songItemplay
@@ -149,17 +149,20 @@ nav ul li{
 {
     .songItem{
         font-size: 14px;
-        width: 90%;
+        width: 98%;
     }
     h1{
         font-size: 18px;
     }
     .songList{
         width: 590px;
-        padding-top: 15px;
-        padding-left: 10px;
+        padding-top: 8px;
+        padding-left: 5px;
     }
     .container{
         width: 90%;
+    }
+    #masterSongName{
+        font-size: 18px;
     }
 }
